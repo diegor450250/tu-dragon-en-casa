@@ -160,11 +160,39 @@ ol {
 }
 
 .conoce-mas img {
-    width: 25rem;
+    width: 35rem;
 }
 
 .conoce-mas ul{
     list-style-type: none;
+}
+
+.conoce-mas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.su-alimentacion {
+    margin: 45px;
+    padding: 20px;
+    width: 40rem;
+}
+
+.su-alimentacion ul {
+    padding: 20px;
+}
+
+.conoce-mas-dos {
+    margin: 30px;
+    justify-content: center;
+}
+
+.conoce-mas-dos p {
+    text-align: justify;
+}
+
+.conoce-mas-titulos {
+    margin-bottom: 20px;
 }
 
 .carrito {
