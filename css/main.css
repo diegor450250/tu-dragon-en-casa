@@ -1,0 +1,300 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 2rem;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  color: red;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  flex-flow: wrap;
+  width: 100%;
+}
+header h1 {
+  font-size: 3rem;
+  margin: 15px;
+}
+header img {
+  width: 7rem;
+  font-weight: 7rem;
+  margin: 15px;
+  display: flex;
+}
+
+main {
+  margin: 65px;
+}
+
+.nav {
+  display: flex;
+}
+.nav a {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+ol {
+  display: flex;
+  margin: 20px;
+  display: inline-block;
+}
+
+.titulos h2 {
+  font-size: 200%;
+  text-align: center;
+}
+
+.title-beneficios {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.title-beneficios h2 {
+  margin: 15px;
+}
+.title-beneficios p {
+  margin: 0px 50px 0px 50px;
+  text-align: center;
+}
+
+.beneficios {
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+.beneficios img {
+  width: 30rem;
+  display: flex;
+  margin: 20px 30px 20px 50px;
+}
+
+.dragones-select {
+  display: flex;
+  width: 100%;
+}
+.dragones-select img {
+  width: 20rem;
+  height: 20rem;
+  margin: 30px;
+}
+
+.dragones {
+  width: 100%;
+}
+.dragones h2 {
+  margin-bottom: 30px;
+}
+
+.dragones-txt h3 {
+  margin: 20px;
+}
+
+.dragones-inicio {
+  display: flex;
+}
+.dragones-inicio img {
+  width: 20rem;
+  height: 20rem;
+  margin: 20px;
+}
+
+.dragones-car img {
+  width: 20rem;
+  margin: 30px;
+}
+
+.dragones-iniciotxt h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.txt h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 5%;
+}
+.txt p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.txt a {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.genero {
+  color: white;
+  margin: 2%;
+  background-color: #999898;
+  width: 10rem;
+  border-radius: 4px;
+}
+
+.conoce a {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.no-dis {
+  color: red;
+}
+
+.conoce-mas {
+  display: flex;
+  justify-content: space-evenly;
+}
+.conoce-mas img {
+  width: 50%;
+  margin: 3%;
+}
+.conoce-mas ul {
+  list-style-type: none;
+}
+
+.su-alimentacion {
+  margin: 5%;
+  width: 60%;
+}
+.su-alimentacion ul {
+  padding: 20px;
+}
+
+.conoce-mas-dos {
+  margin: 30px;
+  justify-content: center;
+}
+.conoce-mas-dos p {
+  text-align: justify;
+}
+
+.conoce-mas-titulos {
+  margin-bottom: 20px;
+}
+
+.carrito {
+  border: 1px solid black;
+  margin: 40px;
+}
+
+input {
+  color: white;
+  background-color: purple;
+  width: 6rem;
+  height: 3rem;
+  margin: 2%;
+  border-radius: 8px;
+}
+
+.img1 {
+  display: flex;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+.img1 img {
+  width: 35%;
+  margin-left: 5%;
+}
+
+.txt1 {
+  width: 40%;
+  margin-left: 10%;
+}
+.txt1 h3 {
+  margin-bottom: 2rem;
+}
+
+.img2 {
+  display: flex;
+}
+.img2 img {
+  width: 40%;
+  margin: 5%;
+}
+
+.txt2 {
+  width: 50%;
+  margin: 2%;
+  align-content: center;
+}
+
+.card-body {
+  display: flex;
+  height: 20rem;
+  justify-content: center;
+}
+.card-body img {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+.card {
+  margin: 5%;
+}
+
+.carrito-articulo {
+  margin: 40px;
+  width: 50rem;
+}
+.carrito-articulo p {
+  color: white;
+  text-align: center;
+  background-color: #999898;
+  width: 10rem;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: purple;
+  border-color: purple;
+  margin-top: 5%;
+}
+
+footer {
+  background-color: white;
+  border: 1px solid black;
+  margin: 15px;
+}
+footer h4 {
+  font-size: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+.footer img {
+  width: 30%;
+  margin: 5px;
+}
+
+.footer-uno {
+  margin: 15px;
+  width: 40%;
+}
+
+.footer-dos {
+  display: flex;
+  width: 40%;
+}
+
+.footer-dos-txt {
+  margin: 15px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=main.css.map */
