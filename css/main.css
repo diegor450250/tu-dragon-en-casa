@@ -297,4 +297,10 @@ footer h4 {
   justify-content: center;
 }
 
+@media (max-width: 700px) {
+  header {
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
